@@ -65,3 +65,7 @@
 
 
 //////////////////////////////////////////////////////// 35. Arrow Functions
+
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
