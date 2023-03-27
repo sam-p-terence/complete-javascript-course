@@ -106,3 +106,48 @@
 
 "LECTURE: Logical Operators"
 
+// let language = 'english'
+// let population = 50
+// let isIsland = true
+// let country = 'usa'
+
+// if (language === 'english' && population < 50 && !isIsland)
+//  {
+//  console.log(`You should live in ${country} :)`);
+//  } else {
+//  console.log(`${country} does not meet your criteria :(`);
+//  }
+
+"LECTURE: The switch Statement"
+
+// let language = 'khmer'
+
+// switch(language) {
+//         case 'chinese or mandarin':
+//             console.log('Most number of speakers')
+//             break;
+//         case 'spanish':
+//             console.log('Second number');
+//             break;
+//         case 'english':
+//             console.log('Third number');
+//             break;
+//         case 'hindi':
+//             console.log('Fourth number');
+//                 break;
+//         case 'arabic':
+//             console.log('Fifth number')
+//                 break;
+//         default:
+//             console.log('Great language too?')
+//     }
+    
+
+
+"LECTURE: The Conditional (Ternary) Operator"
+
+// let population = 1000
+
+// const portugal = population >= 900 ? 'above average' : 'below average';
+
+// console.log(`Portugal's population is ${population >= 900 ? 'above average' : 'below average'}`)
