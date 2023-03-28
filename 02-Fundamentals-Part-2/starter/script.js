@@ -457,3 +457,52 @@
 // for(let rep = 1; rep <= 10; rep++) {
 //     console.log(`Lifting weights ${rep}`)
 // }
+
+
+////////////////////////////////////// 47. Looping Arrays, Breaking & Continuing
+
+const jonasArray = [
+    'Jonas',
+    'Schemtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    true,
+];
+
+// const types = [];
+
+// // let arrayLength = jonasArray.length;
+// for (let i = 0; i < jonasArray.length; i++) {
+//     console.log(jonasArray[i], typeof jonasArray[i]);
+
+// // types[0] = 'string'
+// types.push(typeof jonasArray[i])
+// }
+
+// console.log(types)
+
+
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+
+// for(let i = 0; i < years.length; i++){
+//    ages.push(2037 - years[i]);
+// }
+// console.log(ages)
+
+// // Continue and Break
+
+// // STRINGS ONLY
+// for (let i = 0; i < jonasArray.length; i++) {
+//     if(typeof jonasArray[i] !== 'string') continue;
+
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }
+
+// // NUMBER ONLY
+// for (let i = 0; i < jonasArray.length; i++) {
+//     if(typeof jonasArray[i] !== 'number') continue;
+
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }

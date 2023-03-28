@@ -137,3 +137,26 @@
 // }
 
 
+"LECTURE: Looping Arrays, Breaking and Continuing"
+
+
+
+// const populations = [10, 1441, 332, 83];
+// const percentages2 = [];
+
+// for(i = 0; i < populations.length; i++) {
+//     const percTotal= percentageOfWorld1(populations[i]) 
+//     percentages2.push(percTotal) ;
+
+// console.log(percentages2)
+// }
+
+
+
+// const populations = [10, 1441, 332, 83];
+// const percentages2 = [];
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2.push((populations[i] / 7900) * 100);
+// }
+// console.log(percentages2);
+
