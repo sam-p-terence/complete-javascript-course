@@ -117,3 +117,15 @@
 //     language: "Angkorian/Khmer",
 //     neighbors: "Laos"
 // }
+
+"LECTURE: Dot vs. Bracket Notation"
+
+// let finland = {
+//     country: "Finland",
+//     population: 6,
+//     language: "Finnish",
+//     neighbors: 3,
+//     capital: "Helsinki",
+// }
+
+// console.log(`${finland.country} has ${finland.population} million ${finland.language} speaking people, ${finland.neighbors} neighoring countries, and a capital named ${finland.capital}.`)
