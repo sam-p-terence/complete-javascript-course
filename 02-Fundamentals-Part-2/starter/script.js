@@ -213,7 +213,7 @@
 // ];
 // console.log(ages)
 
-/////////////////////////////////// 40. Basic Array Operations (Methods)
+////////////////////////////////////// 40. Basic Array Operations (Methods)
 
 // const friends = [
 //     'Michael', 
@@ -252,3 +252,41 @@
 // if (friends.includes('Steven')) {
 //     console.log('You have a friend called Steven')
 // };
+
+/////////////////////////////////// 41. Coding Challenge #2
+
+
+// const calcTip = bills <= 300 && bills >= 50 ? bills * 0.15 : bills * 0.2;
+// console.log(`The bill was ${bills}, the tip was ${tips}, and the total value was ${ bills + tips}`);
+
+
+// const calcTips = function(bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+// }
+
+// // const calcTipss = bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2; // Arrow Function
+
+
+// const bills = [
+//     125, 555, 44,
+// ];
+
+// const tips = [
+//     [calcTips(bills[0]), calcTips(bills[1]), calcTips(bills[2])]
+// ];
+// console.log(bills, tips)
+
+
+// const sum = tips.reduce((partialSum, a) => partialSum + a, 0);
+// console.log(sum)
+
+// const totals = [
+//     bills[0] + tips[0],
+//     bills[1] + tips[1],
+//     bills[2] + tips[2],
+// ];
+// console.log(totals)
+
+
+//////////////////////////////////// .42 Introduction to Objects
+
