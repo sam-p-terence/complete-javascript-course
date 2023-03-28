@@ -307,7 +307,7 @@
 // };
 
 
-/////////////////////////////// 43. Dot vs Bracket Notation
+///////////////////////////////////////////// 43. Dot vs Bracket Notation
 
 // const jonas = {
 //     firstName: 'Jonas',
@@ -343,3 +343,97 @@
 // // "Jonas has 3 friends, and his best friend is called Michael"
 
 // console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is named ${jonas.friends[0]}.`)
+
+
+///////////////////////////////////////////// 44. Object Methods
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+  
+//     // calcAge: function (birthYeah) {
+//     //   return 2037 - birthYeah;
+//     // }
+  
+//     // calcAge: function () {
+//     //   // console.log(this);
+//     //   return 2037 - this.birthYeah;
+//     // }
+  
+//     calcAge: function () {
+//       this.age = 2037 - this.birthYear;
+//       return this.age;
+//     },
+  
+//     getSummary: function () {
+//       return `${this.firstName} is a ${this.calcAge()}-year old ${jonas.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+//     }
+//   };
+  
+//   console.log(jonas.calcAge());
+  
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+  
+//   // Challenge
+//   // "Jonas is a 46-year old teacher, and he has a driver's license"
+//   console.log(jonas.getSummary());
+
+
+  ///////////////////////// 45. Coding Challendge #3
+
+// let markMass = 78 
+// let markHeight = 1.69
+// let johnMass = 92
+// let johnHeight = 1.95
+
+
+// let markBMI = (markMass / markHeight ** 2)
+// let johnBMI = (johnMass / johnHeight ** 2)
+
+// let comparison = markBMI > johnBMI
+
+// console.log(markBMI, johnBMI, comparison);
+
+// let mark = {
+//     fullName: "Mark Miller",
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//         this.bmi = mark.mass / mark.height ** 2;
+//         return this.bmi
+//     },
+
+// };
+// mark.calcBMI()
+// console.log(mark.bmi)
+
+// let john = {
+//     fullName: "John Smith",
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//         this.bmi = john.mass / john.height ** 2;
+//         return this.bmi
+//     },
+// }
+// john.calcBMI()
+// console.log(john.bmi)
+
+// // function checkHigherBmi(avg, avg2) {
+// //     const largest = Math.max([], [])
+// //     return `${john.fullName} has a higher BMI!`
+// // }
+
+// // console.log(checkHigherBmi(mark[3], john[3]))
+
+// if(mark.bmi > john.bmi) {
+//     console.log(`${mark.fullName} has a higher BMI`)
+// } else {
+//     console.log(`${john.fullName} has a higher BMI`)
+// }
