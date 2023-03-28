@@ -60,29 +60,51 @@
 
 "LECTURE: Introduction to Arrays"
 
-const populationss = [
-    "Taiwan",
-    "Cambodia",
-    "Israel",
-    "Germany"
-];
+// const populationss = [
+//     "Taiwan",
+//     "Cambodia",
+//     "Israel",
+//     "Germany"
+// ];
 
-// const count = populations.filter(Boolean).length
-// console.log(count)
+// // const count = populations.filter(Boolean).length
+// // console.log(count)
 
-const percentagess = [
-    1.5,
-    0.5,
-    0.7,
-    2.1
-]
+// const percentagess = [
+//     1.5,
+//     0.5,
+//     0.7,
+//     2.1
+// ]
 
-const populations = [10, 1441, 332, 83];
- console.log(populations.length === 4);
- const percentages = [
- percentageOfWorld1(populations[0]),
- percentageOfWorld1(populations[1]),
- percentageOfWorld1(populations[2]),
- percentageOfWorld1(populations[3])
- ];
- console.log(percentages);
+// const populations = [10, 1441, 332, 83];
+//  console.log(populations.length === 4);
+//  const percentages = [
+//  percentageOfWorld1(populations[0]),
+//  percentageOfWorld1(populations[1]),
+//  percentageOfWorld1(populations[2]),
+//  percentageOfWorld1(populations[3])
+//  ];
+//  console.log(percentages);
+
+"LECTURE: Basic Array Operations (Methods)"
+
+// const neighbors = [
+//     "France",
+//     "Sweden",
+//     "Italy",   
+// ];
+
+// const newLength = neighbors.push('Utopia');
+// // console.log(neighbors)
+
+// let removeNeighbor = neighbors.pop();
+// // console.log(neighbors)
+
+// if(neighbors.includes('Germany')) {
+//     console.log("Probably not a European Country")
+// };
+
+// neighbors[neighbors.indexOf('France')] = 'Portugal';
+
+// console.log(neighbors)
