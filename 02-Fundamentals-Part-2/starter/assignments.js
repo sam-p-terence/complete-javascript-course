@@ -160,3 +160,15 @@
 // }
 // console.log(percentages2);
 
+"LECTURE: Looping Backwards and Loops in Loops"
+
+// let listOfNeighbors = [
+//     ['Canada', 'Mexico'],
+//     ['Spain'],
+//     ['Norway', 'Sweden', 'Russia'],
+// ]
+
+// for (let i = 0; i < listOfNeighbors.length; i++) {
+//     for (let y = 0; y < listOfNeighbors[i].length; y++)
+//     console.log(`Neighbor: ${listOfNeighbors[i][y]}`)
+// }
