@@ -42,3 +42,18 @@
 
 // const percentageOfKorea = percentageOfWorld3(100);
 // console.log(percentageOfKorea);
+
+"LECTURE: Functions Calling Other Functions"
+
+// function percentageOfWorld1(population) {
+//     return (population/7900) * 100 ;
+// }
+
+// function describePopulation(country, population) {
+//     const percentageOfWorldWhole = percentageOfWorld1(population)
+
+//     const description = `${country} has ${population} people, which is about ${percentageOfWorldWhole}% of the world`;
+//     console.log(description)
+// }
+
+// describePopulation("China", 1441);

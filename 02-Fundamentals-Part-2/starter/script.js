@@ -88,15 +88,15 @@
 /////////////////////////////////////////// 36. Functions Calling Other Functions
 
 
-function cutFruitPieces(fruit) {
-    return fruit * 3;
-}
+// function cutFruitPieces(fruit) {
+//     return fruit * 3;
+// }
 
-function fruitProcessor(apples, oranges) {
-    const applePieces = cutFruitPieces(apples);
-    const orangePieces = cutFruitPieces(oranges)
+// function fruitProcessor(apples, oranges) {
+//     const applePieces = cutFruitPieces(apples);
+//     const orangePieces = cutFruitPieces(oranges)
 
-    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
-    return juice;
-}
-console.log(fruitProcessor(2, 3));
+//     const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+//     return juice;
+// }
+// console.log(fruitProcessor(2, 3));
