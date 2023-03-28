@@ -129,3 +129,11 @@
 // }
 
 // console.log(`${finland.country} has ${finland.population} million ${finland.language} speaking people, ${finland.neighbors} neighoring countries, and a capital named ${finland.capital}.`)
+
+"LECTURE: Iteration: The for Loop"
+
+// for(let voter = 1; voter <= 50; voter++){
+//     console.log(`We are currently on voter ${voter}`)
+// }
+
+

@@ -385,7 +385,7 @@
 //   console.log(jonas.getSummary());
 
 
-  ///////////////////////// 45. Coding Challendge #3
+  ///////////////////////// 45. Coding Challenge #3
 
 // let markMass = 78 
 // let markHeight = 1.69
@@ -436,4 +436,24 @@
 //     console.log(`${mark.fullName} has a higher BMI`)
 // } else {
 //     console.log(`${john.fullName} has a higher BMI`)
+// }
+
+
+
+////////////////////////// 46. Iteration: The for Loop
+
+// console.log('Lifting weights 1')
+// console.log('Lifting weights 2')
+// console.log('Lifting weights 3')
+// console.log('Lifting weights 4')
+// console.log('Lifting weights 5')
+// console.log('Lifting weights 6')
+// console.log('Lifting weights 7')
+// console.log('Lifting weights 8')
+// console.log('Lifting weights 9')
+// console.log('Lifting weights 10')
+
+// for loop keeps running while the condition is TRUE
+// for(let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights ${rep}`)
 // }
