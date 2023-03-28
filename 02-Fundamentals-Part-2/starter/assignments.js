@@ -36,3 +36,9 @@
 // const populationOfKorea = percentageOfWorld2(500)
 // console.log(populationOfKorea)
 
+"LECTURE: Arrow Functions"
+
+// const percentageOfWorld3 = population => (population / 7900) * 10;
+
+// const percentageOfKorea = percentageOfWorld3(100);
+// console.log(percentageOfKorea);
