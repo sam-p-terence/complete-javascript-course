@@ -290,3 +290,18 @@
 
 //////////////////////////////////// .42 Introduction to Objects
 
+// const jonasArray = [
+//     'Jonas',
+//     'Schemtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'pter', 'steven']
+// ];
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schemtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'pter', 'steven'],
+// };

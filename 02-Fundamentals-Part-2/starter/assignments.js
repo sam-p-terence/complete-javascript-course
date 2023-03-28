@@ -108,3 +108,12 @@
 // neighbors[neighbors.indexOf('France')] = 'Portugal';
 
 // console.log(neighbors)
+
+"LECTURE: Introduction to Objects"
+
+// let myCountry = {
+//     country: "Cambodia",
+//     capital: "Phnom Penh",
+//     language: "Angkorian/Khmer",
+//     neighbors: "Laos"
+// }
