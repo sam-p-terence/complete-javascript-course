@@ -3,7 +3,7 @@
 
 /////////////////////////////// 70. PROJECT #1: Guess My Number
 
-console.log(document.querySelector('.message').textContent);
+// console.log(document.querySelector('.message').textContent);
 
 /////////////////////// 71. What's the DOM and DOM Manipulation
 
@@ -11,6 +11,15 @@ console.log(document.querySelector('.message').textContent);
 
 "API: Application Programming Interface."
 
+/////////////////////// 72. Selecting and Manipulating Elements
 
+console.log(document.querySelector('.message').textContent);
+document.querySelector('.message').textContent = '🎉 Correct Number!';
 
-///////////////////////
+document.querySelector('.number').textContent = 13;
+document.querySelector('.score').textContent = 10;
+
+document.querySelector('.guess').value = 23;
+console.log(document.querySelector('.guess').value);
+
+//////////////////////// 73. Handling Click Events
