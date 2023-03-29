@@ -582,3 +582,5 @@
 //   console.log(calcAverage(totals));
 //   console.log(calcAverage(tips));
   
+
+//final
