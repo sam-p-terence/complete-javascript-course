@@ -32,12 +32,45 @@
 
 //////////////////////////////////// 95. Hoisting and TDZ in Practice
 
-console.log(me)
-console.log(job)
-console.log(birthYear)
 
+// // Hoisting with Variables
+// // console.log(me);
+// // console.log(job);
+// // console.log(birthYear);
 
+// // var me = "Jonas";
+// // let job = "teacher";
+// // const birthYear = 1991;
 
-var me = "Jonas";
-let job = "teacher";
-const birthYear = 1991;
+// console.log(addDecl(2, 3))
+// // console.log(addExpr(2, 3))
+// // console.log(addArrow)
+// // console.log(addArrow(2, 3))
+
+// // Functions
+// function addDecl(a, b) {
+//     return a + b;
+// };
+
+// var addExpr = function (a, b) {
+//     return a + b;
+// };
+
+// const addArrow = (a, b) => a + b;
+
+// // Example
+// if(!numProducts) deleteShoppingCart();
+
+// var numProducts = 10;
+
+// function deleteShoppingCart() {
+//     console.log('All products deleted!');
+// };
+
+// var x = 1;
+// let y = 2;
+// const z = 3;
+
+// console.log(x === window.x);
+// console.log(y === window.y);
+// console.log(z === window.z);
