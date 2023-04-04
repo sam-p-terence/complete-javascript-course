@@ -126,93 +126,91 @@ const flights =
 // console.log(restaurantName, hours, tags);
 
 
-// // Default Values
-// const { 
-//   menu = [], 
-//   starterMenu: starters = []
-// } = restaurant;
-// console.log( menu, starters);
-
-// // Mutating Variables
-// let a = 111;
-// let b = 999;
-// const obj = {a: 23, b: 7, c: 14};
-// ({a, b} = obj);
-// console.log( a, b);
-
-// // Nested Objects
-// const { fri: {open: o, close: c} } = openingHours;
-// console.log(o, c);
-
 
 ///////////////////////////////////// 105. The Spread Operator (...)
 
-const restaurant = {
-  name: 'Classico Italiano',
-  location: 'Via Angelo Tavanti 23, Firenze, Italy',
-  categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
-  starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
-  mainMenu: ['Pizza', 'Pasta', 'Risotto'],
-  openingHours: {
-    thu: {
-      open: 12,
-      close: 22,
-    },
-    fri: {
-      open: 11,
-      close: 23,
-    },
-    sat: {
-      open: 0, // Open 24 hours
-      close: 24,
-    },
-  },
+// const restaurant = {
+//   name: 'Classico Italiano',
+//   location: 'Via Angelo Tavanti 23, Firenze, Italy',
+//   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
+//   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
+//   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
+//   openingHours: {
+//     thu: {
+//       open: 12,
+//       close: 22,
+//     },
+//     fri: {
+//       open: 11,
+//       close: 23,
+//     },
+//     sat: {
+//       open: 0, // Open 24 hours
+//       close: 24,
+//     },
+//   },
 
-    order: function(starterIndex, mainIndex) {
-      return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]]
-    },
+//     order: function(starterIndex, mainIndex) {
+//       return [this.starterMenu[starterIndex], 
+//       this.mainMenu[mainIndex]]
+//     },
 
-    orderDelivery: function({starterIndex = 1, mainIndex = 0, time = '20:00', address}) {
-      console.log(`Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to "${address}" at ${time}`);
-    }
-};
+//     orderDelivery: function({starterIndex = 1, mainIndex = 0, time = '20:00', address}) {
+//       console.log(`Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to "${address}" at ${time}`);
+//     },
 
-restaurant.orderDelivery({
-  time: '22:30',
-  address: 'Via del Sole, 21',
-  mainIndex: 2,
-  starterIndex: 2,
-})
-
-restaurant.orderDelivery({
-  address: 'Via del Sole, 21',
-  starterIndex: 2,
-})
-const { name, openingHours, categories } = restaurant;
-console.log(name, openingHours, categories);
-
-const {
-  name: restaurantName, 
-  openingHours: hours, 
-  categories: tags
-} = restaurant
-console.log(restaurantName, hours, tags);
+//     orderPasta: function(ing1, ing2, ing3) {
+//       console.log(`Here is your delicious pasta with ${ing1}, ${ing2}, and ${ing3}`)
+//     }
+// };
 
 
-// Default Values
-const { 
-  menu = [], 
-  starterMenu: starters = []
-} = restaurant;
-console.log( menu, starters);
+// const arr = [7, 8, 9];
+// const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
+// console.log(badNewArr)
 
-// Mutating Variables
-let a = 111;
-let b = 999;
-const obj = {a: 23, b: 7, c: 14};
-({a, b} = obj);
-console.log( a, b);
+// const NewArr = [1, 2, ...arr];
+// console.log(NewArr);
 
-// Nested Objects
-const { fri: {open: o, close: c} } = openingHours;
-console.log(o, c);
+// console.log(...NewArr);
+
+// const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+// console.log(newMenu)
+
+// // Copy Array
+// const mainMenuCopy = [...restaurant.mainMenu];
+
+// // Join 2 Arrays
+// const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+// console.log(menu);
+
+// // Iterables: arrays, strings, maps, sets. NOT Objects
+// const str = 'Jonas';
+// const letters = [...str, ' ', 'S.'];
+// console.log(letters);
+// console.log(...str);
+// // console.log(`${...str}`)
+
+// // Real World Example
+// const ingredients = [
+// //   prompt('Let\'s make pasta! Ingredient 1?'),
+// //   prompt('Let\'s make pasta! Ingredient 2?'),
+// //   prompt('Let\'s make pasta! Ingredient 3?')
+// ];
+// console.log(ingredients);
+
+// // restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
+// restaurant.orderPasta(...ingredients)
+
+// // Objects
+// const newRestaurant = {foundedIn: 1998, ...restaurant, founder: 'Guiseppe'};
+// console.log(newRestaurant);
+
+// const restaurantCopy = {...restaurant};
+// restaurantCopy.name = 'Ristorante Roma';
+// console.log(restaurantCopy.name);
+// console.log(restaurant.name)
+
+
+//////////////////////////////////// 106. Rest Pattern and Parameters
+
