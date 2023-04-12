@@ -1110,16 +1110,28 @@ const restaurant = {
     },
 };
 
+// const question = new Map([
+//   ['question', 'What is the best programming language in the world?'],
+//   [1, 'C'],
+//   [2, 'Java'],
+//   [3, 'JavaScript'],
+//   ['correct', 3],
+//   [true, 'Correct!'],
+//   [false, 'Try Again!'],
+// ]);
+// console.log(question);
+
 const question = new Map([
   ['question', 'What is the best programming language in the world?'],
   [1, 'C'],
   [2, 'Java'],
   [3, 'JavaScript'],
-  ['Correct', 3],
-  [true, 'Correct!'],
-  [false, 'Try Again!'],
+  ['correct', 3],
+  [true, 'Correct 🎉'],
+  [false, 'Try again!'],
 ]);
 console.log(question);
+
 
 // Convert Object to MAP
 console.log(Object.entries(openingHours));
@@ -1136,4 +1148,4 @@ const answer = Number(prompt('Your answer'));
 console.log(answer)
 
 
-console.log(question.get(question.get('correct') === answer)) 
+console.log(question.get(question.get('correct') === answer))
